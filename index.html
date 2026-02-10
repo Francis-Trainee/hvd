@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For you Babyy ko❤️</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Scattered Photos -->
+<div class="photo photo1"><img src="photos/pic1.jpg"></div>
+<div class="photo photo2"><img src="photos/pic2.jpg"></div>
+<div class="photo photo3"><img src="photos/pic3.jpg"></div>
+<div class="photo photo4"><img src="photos/pic4.jpg"></div>
+<div class="photo photo5"><img src="photos/pic5.jpg"></div>
+<div class="photo photo7"><img src="photos/pic7.jpg"></div>
+
+<!-- Envelope -->
+<div class="envelope" onclick="openEnvelope()">
+  <div class="envelope-top"></div>
+  <div class="envelope-body"></div>
+  <p>Tap to open 💌</p>
+</div>
+
+<!-- Card -->
+<div class="card hidden" id="card">
+  <div class="card-inner" id="cardInner">
+    <div class="card-front">
+      <h1>💖 Happy Valentine’s 💖</h1>
+    </div>
+    <div class="card-back">
+      <h2>❤️ Dear <span>Singkitt</span> ❤️</h2>
+      <p id="typewriter"></p>
+      <p class="signature">— Anthony 💕</p>
+    </div>
+  </div>
+</div>
+
+<div class="hearts"></div>
+<div class="petals"></div>
+<div class="fireworks"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
